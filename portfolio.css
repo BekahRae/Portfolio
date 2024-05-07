@@ -1,0 +1,293 @@
+@media(min-width: 1024px){
+    body{
+         margin:0;
+         background-color: #0bbbcb;
+         color:#000000;
+         font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    header{
+         /* background-color: #80CBC4; */
+         background-image: url("wavyblue.jpg");
+         background-size: 100% 100%;  /*stretch the image to 100% width and 100% height*/
+         color:#FFFFFF;
+         font-size: 120%;
+         margin-top: 50px;
+         height: 200px;
+         text-align: center;
+         font-size: 2.0em;
+    }
+    header a:link{text-decoration: none; display:block; color:#000000;}
+    header a:visited{text-decoration: none; display:block; color:#000000;}
+    header a:hover{text-decoration: none; display:block; color:#000000;}
+    h1{
+         line-height: 200%;
+         padding-top: 50px;
+         padding-left: 2em;
+    }
+    h2{
+         font-size: 200%;
+    }
+    nav{
+         position:fixed;
+         top:0;
+         left:0;
+         text-align: right;
+         padding: .5em;
+         padding-right: 0;
+         width: 100%; 
+         background-color: #FFFFFF;
+         margin:0;
+         z-index:9999; 
+    }
+    nav a{                        /* this style is only for <a> in the nav*/
+         text-decoration: none;
+         display: block;
+    }
+    /*   add styling to the a links when one of these happens   */
+    nav a:link{color:#000000}                                   /*just sitting here*/
+    nav a:visited{color:#090909}                                /*after visiting*/
+    nav a:hover{color:#0bbbcb;}       /*mouse hover over*/
+    nav ul{
+         display: flex;
+         flex-wrap: nowrap;
+         justify-content: flex-end;
+         margin: 0;
+         font-size: 2.2em;
+         list-style-type: none;
+    
+    }
+    nav li{
+         width: 7em;
+         padding: 0 1em 0 1em;
+         display: inline;
+    }
+    footer{
+         background-color: #80CBC4;
+         font-size: .6em;
+         text-align: center;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         font-style: italic;
+         padding: 1em;
+    }
+    img{
+         padding-left: 1em;
+         padding-right: 1em;
+    }
+    main{
+         padding-top:1em;
+         padding-left: 2em;
+         padding-right: 2em;
+         display:block;           /*sets the items in the tag to fall in-line */
+         margin-left: 170px;      /*pushes the main off the left side of the screen*/
+    }
+    /* class section */
+    .studio{  /* class for the name of the studio */
+         color:#000000;
+         font-style: italic;
+    }
+    .home{
+         height: 50vh;
+         padding-left: 8em;
+         padding-top: 5em;
+    }
+    .content{
+         height: 30vh;
+         padding-left: 8em;
+         padding-top: 1em;
+    }
+    /* id section */
+    #wrapper{   
+         margin-right: auto;
+         margin-left: auto;  /*Will help center the text on the screen*/
+         width:80%;
+         background-color: #F5F5F5;
+         min-width: 1000px;                 /*locking in the width of the screen*/
+         max-width: 1280px;
+    }
+    #hero{                                  /*typical id name for pictures*/
+         text-align: center;
+    }
+    #mobile{
+         display:none;
+    }
+    #desktop{
+         display:inline;
+    }
+    #mathero{
+         background-image: url(smokyblue.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         display: block;
+         height: 300px;
+         padding-bottom: 1em;
+    }
+    #loungehero{
+         background-image: url(smokyblue.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         display: block;
+         height: 300px;
+         padding-bottom: 1em;
+    }
+    #flow{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+    }
+    }
+    
+    
+    
+    
+    @media(max-width: 600px){
+         body{
+              margin:0;
+              background-color: #000;
+              color:#000000;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         }
+         header{
+              /* background-color: #80CBC4; */
+              background-image: url("images/sunrise.jpg");
+              background-size: 100% 100%;  /*stretch the image to 100% width and 100% height*/
+              color:#FFFFFF;
+              font-size: 120%;
+              margin-top: 50px;
+              height: 200px;
+              text-align: left;
+         }
+         header a:link{text-decoration: none; display:block; color:#FFFFFF;}
+         header a:visited{text-decoration: none; display:block; color:#FFFFFF;}
+         header a:hover{text-decoration: none; display:block; color:#0bbbcb;}
+         h1{
+              line-height: 200%;
+              padding-top: 50px;
+              padding-left: 2em;
+         }
+         h2{
+              font-size: 200%;
+         }
+         nav{
+              position:fixed;
+              top:0;
+              left:0;
+              text-align: right;
+              padding: .5em;
+              padding-right: 0;
+              width: 100%; 
+              background-color: #FFFFFF;
+              margin:0;
+              z-index:9999; 
+         }
+         nav a{                        /* this style is only for <a> in the nav*/
+              text-decoration: none;
+              display: block;
+         }
+         /*   add styling to the a links when one of these happens   */
+         nav a:link{color:#000000}                                   /*just sitting here*/
+         nav a:visited{color:#000000}                                /*after visiting*/
+         nav a:hover{color:#0bbbcb;}       /*mouse hover over*/
+         nav ul{
+              display: flex;
+              flex-wrap: nowrap;
+              justify-content: flex-end;
+              margin: 0;
+              font-size: 1.2em;
+              list-style-type: none;
+         
+         }
+         nav li{
+              width: 7em;
+              padding: 0 1em 0 1em;
+              display: inline;
+         }
+         footer{
+              background-color: #000000;
+              font-size: .6em;
+              text-align: center;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              font-style: italic;
+              padding: 1em;
+         }
+         img{
+              padding-left: 1em;
+              padding-right: 1em;
+         }
+         main{
+              padding-top:1em;
+              padding-left: 2em;
+              padding-right: 2em;
+              display:block;           /*sets the items in the tag to fall in-line */
+              margin-left: 170px;      /*pushes the main off the left side of the screen*/
+         }
+         /* class section */
+         .studio{  /* class for the name of the studio */
+              color:#000000;
+              font-style: italic;
+         }
+         .home{
+              height: 50vh;
+              padding-left: 8em;
+              padding-top: 5em;
+         }
+         .content{
+              height: 30vh;
+              padding-left: 8em;
+              padding-top: 1em;
+         }
+         /* id section */
+         #wrapper{   
+              margin-right: auto;
+              margin-left: auto;  /*Will help center the text on the screen*/
+              width:80%;
+              background-color: #F5F5F5;
+              min-width: 1000px;                 /*locking in the width of the screen*/
+              max-width: 1280px;
+         }
+         #hero{                                  /*typical id name for pictures*/
+              text-align: center;
+         }
+         #mobile{
+              display:none;
+         }
+         #desktop{
+              display:inline;
+         }
+         #mathero{
+              background-image: url(images/yogamat.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              display: block;
+              height: 300px;
+              padding-bottom: 1em;
+         }
+         #loungehero{
+              background-image: url(images/yogalounge.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              display: block;
+              height: 300px;
+              padding-bottom: 1em;
+         }
+         #flow{
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: row;
+         }
+         }
+    
+    form{
+              display: flex;
+              flex-direction: column;
+              padding-left: 1em;
+              width: 80%;
+              margin-bottom: .5em;
+    }
+    input{
+         margin-bottom: .5em;
+    }
+    textarea{
+         margin-bottom: .5em;
+    }
+    /* global property or global var */
+    * {box-sizing: border-box;}
